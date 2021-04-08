@@ -6,7 +6,7 @@ String identifier = "fav";
 String device_developer_id = "";
 String access_token = "";
 
-int pinDHT11 = 2;
+int pinDHT11 = 3;
 SimpleDHT11 dht11(pinDHT11);
 
 void setup() {
@@ -25,11 +25,11 @@ void loop() {
   byte temperature = 0;
   byte humidity = 0;
   
-//  int err = SimpleDHTErrSuccess;
-//  
-//  if ((err = dht11.read(&temperature, &humidity, NULL)) != SimpleDHTErrSuccess) {
-//    return;
-//  }
+  int err = SimpleDHTErrSuccess;
+  
+  if ((err = dht11.read(&temperature, &humidity, NULL)) != SimpleDHTErrSuccess) {
+    return;
+  }
 
   String data = "{";
   data += "\"" + (String)"temperature" + "\":\"" + String(temperature) + "\",";
