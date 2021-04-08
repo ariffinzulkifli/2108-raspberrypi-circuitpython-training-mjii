@@ -1,1 +1,1 @@
-# raspberrypi-circuitpython-training
+# Raspberry Pi CircuitPython Training + LoRa
