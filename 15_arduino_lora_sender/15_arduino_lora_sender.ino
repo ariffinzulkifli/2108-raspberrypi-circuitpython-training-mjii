@@ -3,8 +3,8 @@
 #include <SimpleDHT.h>
 
 String identifier = "fav";
-String device_developer_id = "LoRaDevice@ariffinastute";
-String access_token = "jSJxvHiLOGkqwh8T29HSPmuu3frp5S4l";
+String device_developer_id = "";
+String access_token = "";
 
 int pinDHT11 = 2;
 SimpleDHT11 dht11(pinDHT11);
