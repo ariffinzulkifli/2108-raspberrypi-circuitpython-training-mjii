@@ -3,10 +3,8 @@ import board
 import pwmio
 from adafruit_motor import servo
 
-# create a PWMOut object on Pin D5.
-pwm = pwmio.PWMOut(board.D26, duty_cycle=2 ** 15,  frequency=50)
+pwm = pwmio.PWMOut(board.D5, duty_cycle=2 ** 15,  frequency=50)
 
-# Create a servo object.
 servo = servo.Servo(pwm)
 servo.angle = 90
 

@@ -1,18 +1,15 @@
 import board
 import digitalio
 
-LED_PIN = board.D12  # Pin number for the board's built in LED.
-PIR_PIN = board.D18   # Pin number connected to PIR sensor output wire.
+LED_PIN = board.D12
+PIR_PIN = board.D18
 
-# Setup digital input for PIR sensor:
 pir = digitalio.DigitalInOut(PIR_PIN)
 pir.direction = digitalio.Direction.INPUT
 
-# Setup digital output for LED:
 led = digitalio.DigitalInOut(LED_PIN)
 led.direction = digitalio.Direction.OUTPUT
 
-# Main loop that will run forever:
 old_value = pir.value
 
 while True:
