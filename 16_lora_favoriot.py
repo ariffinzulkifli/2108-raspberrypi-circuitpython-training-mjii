@@ -1,3 +1,4 @@
+# require library - sudo pip3 install adafruit-circuitpython-rfm9x
 import board
 import busio
 import digitalio

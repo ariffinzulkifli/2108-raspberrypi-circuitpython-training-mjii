@@ -1,3 +1,4 @@
+# require library - sudo pip3 install adafruit-circuitpython-dht
 import time
 import board
 import adafruit_dht

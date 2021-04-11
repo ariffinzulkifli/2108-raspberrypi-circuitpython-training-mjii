@@ -1,3 +1,4 @@
+#require library - sudo pip install adafruit-adxl345
 import time
 import board
 import busio

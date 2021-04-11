@@ -1,3 +1,4 @@
+# require library - sudo pip3 install adafruit-circuitpython-ds3231
 import time
 import board
 import busio as io
