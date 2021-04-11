@@ -20,4 +20,12 @@ This repository aim to share **CircuitPython's** example code for
 - LoRa interfacing for Arduino and Raspberry Pi.
 - Send data to [favoriot](https://platform.favoriot.com/v2/signup/FAVO7245IFBK) from end device via Raspberry Pi LoRa gateway.
 
+- Exercise 10-16 require CircuitPython library.
+- Ultrasonic HCSR-04    - `sudo pip3 install adafruit-circuitpython-hcsr04`
+- IR Remote             - `sudo pip3 install adafruit-circuitpython-irremote`
+- RTC DS3231            - `sudo pip3 install adafruit-circuitpython-ds3231`
+- Accelerometer ADXL345 - `sudo pip install adafruit-adxl345`
+- Temp & HUmidity DHT11 - `sudo pip3 install adafruit-circuitpython-dht`
+- Lora RFM96            - `sudo pip3 install adafruit-circuitpython-rfm9x`
+
 #IOTUNTUKSEMUA #PRODUCERNATION #KITABUATDIA
