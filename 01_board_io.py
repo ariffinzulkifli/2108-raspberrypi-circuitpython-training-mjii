@@ -1,2 +1,2 @@
-import board ...
+import board
 print(dir(board))
